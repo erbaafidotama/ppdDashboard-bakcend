@@ -11,4 +11,10 @@ module.exports = function(app) {
 
     app.route('/pembelian/pembelianSummary')
         .get(todoList.pembelianSummary);
+
+    app.route('/penjualan')
+        .get(todoList.penjualan);
+
+    app.route('/stockBarang')
+        .get(todoList.stockbBarang);
 };
